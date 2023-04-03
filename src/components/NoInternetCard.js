@@ -5,7 +5,7 @@ export default function NoInternetCard() {
   return (
     <div className="container">
       {cards.map((item) => (
-        <div key={item.id} className="card"></div>
+        <div key={item.id} className="card" style={{height:'250px'}}></div>
       ))}
     </div>
   );
